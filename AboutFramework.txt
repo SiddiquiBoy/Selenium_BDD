@@ -1,0 +1,17 @@
+This Framework build for web automation using below iteams 
+
+- Webdrivermanager 
+- selenium server 
+- selenium java
+- cucumber junit
+- cucumber java 
+- junit
+- testNG
+
+Feature of this framework 
+- simple execution of feature file 
+- POM concept 
+- Custom Assertion 
+- sequential Execution 
+- parallel Execution [need to work on it]
+- report generation [its working, only report customization part need to check]
