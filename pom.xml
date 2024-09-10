@@ -60,6 +60,12 @@
 			<version>7.10.2</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>7.18.1</version>
+		</dependency>
 
 
 	</dependencies>
@@ -83,10 +89,25 @@
 				<plugin>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.13.0</version>
+					<configuration>
+						<encoding>UTF-8</encoding>
+						<source>17.0.8</source>
+						<target>17.0.8</target>
+					</configuration>
+
 				</plugin>
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.3.0</version>
+					<configuration>
+						<includes>
+							<include>**/ParallelRun.java</include>
+						</includes>
+						<parallel>methods</parallel>
+						<threadCount>4</threadCount>
+						<useUnlimitedThreads>false</useUnlimitedThreads>
+					</configuration>
+
 				</plugin>
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>

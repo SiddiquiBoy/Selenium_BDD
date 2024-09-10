@@ -1,4 +1,4 @@
-package stepdefinitions;
+package parallel;
 
 import java.util.concurrent.TimeUnit;
 
