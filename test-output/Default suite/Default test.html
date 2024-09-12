@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Sep 10 19:08:50 IST 2024</td>
+<td>Started on:</td><td>Thu Sep 12 18:28:39 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>15 seconds (15469 ms)</td>
+<tr><td>Total time:</td><td>33 seconds (33305 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,62 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Login Feature"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:64)
+	at ✽.User should login successfully(classpath:parallel/login1.feature:37)
+</pre></div><a href='#' onClick='toggleBox("stack-trace933133321", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace933133321'><pre>java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:64)
+	at ✽.User should login successfully(classpath:parallel/login1.feature:37)
+</pre></div></td>
+<td>31</td>
+<td>parallel.ParallelRun@74f0ea28</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Login Feature"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:64)
+	at ✽.User should login successfully(classpath:parallel/login2.feature:37)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1600689520", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1600689520'><pre>java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:64)
+	at ✽.User should login successfully(classpath:parallel/login2.feature:37)
+</pre></div></td>
+<td>9</td>
+<td>parallel.ParallelRun@74f0ea28</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,35 +131,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Optional[Login Feature]"</td>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Login Feature"</td>
+<td></td>
+<td>27</td>
+<td>parallel.ParallelRun@74f0ea28</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Login Feature"</td>
+<td></td>
+<td>14</td>
+<td>parallel.ParallelRun@74f0ea28</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Login Feature"</td>
+<td></td>
+<td>16</td>
+<td>parallel.ParallelRun@74f0ea28</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Login Feature"</td>
 <td></td>
 <td>11</td>
-<td>parallel.ParallelRun@6f1de4c7</td></tr>
-<tr>
-<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Optional[Login Feature]"</td>
-<td></td>
-<td>11</td>
-<td>parallel.ParallelRun@6f1de4c7</td></tr>
-<tr>
-<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Optional[Login Feature]"</td>
-<td></td>
-<td>9</td>
-<td>parallel.ParallelRun@6f1de4c7</td></tr>
-<tr>
-<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Optional[Login Feature]"</td>
-<td></td>
-<td>11</td>
-<td>parallel.ParallelRun@6f1de4c7</td></tr>
-<tr>
-<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Optional[Login Feature]"</td>
-<td></td>
-<td>12</td>
-<td>parallel.ParallelRun@6f1de4c7</td></tr>
-<tr>
-<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Optional[Login Feature]"</td>
-<td></td>
-<td>10</td>
-<td>parallel.ParallelRun@6f1de4c7</td></tr>
+<td>parallel.ParallelRun@74f0ea28</td></tr>
 </table><p>
 </body>
 </html>

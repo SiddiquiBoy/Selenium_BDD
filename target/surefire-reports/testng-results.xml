@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-10T19:27:34 IST" name="Surefire suite" finished-at="2024-09-10T19:28:07 IST" duration-ms="33703">
+  <suite started-at="2024-09-12T18:32:43 IST" name="Surefire suite" finished-at="2024-09-12T18:33:06 IST" duration-ms="23082">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-09-10T19:27:34 IST" name="Surefire test" finished-at="2024-09-10T19:28:07 IST" duration-ms="33703">
+    <test started-at="2024-09-12T18:32:43 IST" name="Surefire test" finished-at="2024-09-12T18:33:06 IST" duration-ms="23082">
       <class name="parallel.ParallelRun">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-10T19:27:34 IST" name="setUpClass" finished-at="2024-09-10T19:27:34 IST" duration-ms="663" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-12T18:32:43 IST" name="setUpClass" finished-at="2024-09-12T18:32:43 IST" duration-ms="467" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@233795b6]]>
+                <![CDATA[org.testng.TestRunner@185a6e9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-10T19:27:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-10T19:27:59 IST" duration-ms="25172" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-12T18:32:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-12T18:32:56 IST" duration-ms="12897" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-10T19:27:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-10T19:28:05 IST" duration-ms="30523" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-12T18:32:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-12T18:32:57 IST" duration-ms="13829" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-10T19:27:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-10T19:28:03 IST" duration-ms="28316" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-12T18:32:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-12T18:32:57 IST" duration-ms="13720" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-10T19:27:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-10T19:28:03 IST" duration-ms="29136" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-12T18:32:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-12T18:33:04 IST" duration-ms="20534" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-10T19:27:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-10T19:28:01 IST" duration-ms="27112" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-12T18:32:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-12T18:32:53 IST" duration-ms="10074" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -98,10 +98,27 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:64)
+at ✽.User should login successfully(classpath:parallel/login1.feature:37)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-10T19:27:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-10T19:28:03 IST" duration-ms="28320" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-12T18:32:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-12T18:33:00 IST" duration-ms="16987" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -114,10 +131,27 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:64)
+at ✽.User should login successfully(classpath:parallel/login2.feature:37)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-10T19:28:05 IST" name="tearDownClass" finished-at="2024-09-10T19:28:07 IST" duration-ms="2467" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-12T18:33:04 IST" name="tearDownClass" finished-at="2024-09-12T18:33:06 IST" duration-ms="2039" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

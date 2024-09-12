@@ -5,6 +5,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.server.DriverFactory;
+import org.testng.Assert;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -13,6 +15,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObject.LoginPage;
+import utility.Driverfactory;
 
 
 public class StepDefinition {
@@ -22,10 +25,9 @@ public class StepDefinition {
 	@Before()
 	public void setup()
 	{
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+      driver=Driverfactory.getDriver("chrome");
+      driver.manage().window().maximize();
+      driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	@After
 	public void teardown()
@@ -59,7 +61,6 @@ public class StepDefinition {
 
 	@Then("User should login successfully")
 	public void user_should_login_successfully() {
-		// here assertion [testNG] will come into the picture
-		//Assert.assertEquals(driver.getCurrentUrl().toString(), "https://practicetestautomation.com/logged-in-successfully/");
+		Assert.assertEquals(driver.getCurrentUrl().toString(), "https://practicetestautomation.com/logged-in-successfully/");
 	}
 }

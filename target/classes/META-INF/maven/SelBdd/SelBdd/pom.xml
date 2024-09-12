@@ -105,7 +105,7 @@
 						</includes>
 						<parallel>methods</parallel>
 						<threadCount>4</threadCount>
-						<useUnlimitedThreads>false</useUnlimitedThreads>
+						<!--<useUnlimitedThreads>false</useUnlimitedThreads>-->
 					</configuration>
 
 				</plugin>
