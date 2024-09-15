@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: parallel.ParallelRun
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 23.59 s <<< FAILURE! -- in parallel.ParallelRun
-parallel.ParallelRun.runScenario["User should be able to login with valid cred", "Login Feature"](1) -- Time elapsed: 10.08 s <<< FAILURE!
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 23.14 s <<< FAILURE! -- in parallel.ParallelRun
+parallel.ParallelRun.runScenario["User should be able to login with valid cred", "Login Feature"](1) -- Time elapsed: 15.32 s <<< FAILURE!
 java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -10,10 +10,21 @@ java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:64)
+	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:35)
+	at ✽.User should login successfully(classpath:parallel/login2.feature:37)
+
+parallel.ParallelRun.runScenario["User should be able to login with valid cred", "Login Feature"](2) -- Time elapsed: 15.33 s <<< FAILURE!
+java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:35)
 	at ✽.User should login successfully(classpath:parallel/login1.feature:37)
 
-parallel.ParallelRun.runScenario["User should be able to login with valid cred", "Login Feature"](5) -- Time elapsed: 16.99 s <<< FAILURE!
+parallel.ParallelRun.runScenario["User should be able to login with valid cred", "Login Feature"](5) -- Time elapsed: 16.75 s <<< FAILURE!
 java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -21,6 +32,6 @@ java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:64)
-	at ✽.User should login successfully(classpath:parallel/login2.feature:37)
+	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:35)
+	at ✽.User should login successfully(classpath:parallel/login1.feature:29)
 

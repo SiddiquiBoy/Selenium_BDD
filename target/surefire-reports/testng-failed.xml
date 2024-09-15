@@ -7,7 +7,7 @@
         <methods>
           <include name="setUpClass"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="2 5"/>
+          <include name="runScenario" invocation-numbers="0 2 5"/>
         </methods>
       </class> <!-- parallel.ParallelRun -->
     </classes>

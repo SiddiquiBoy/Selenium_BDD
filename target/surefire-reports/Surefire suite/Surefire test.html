@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Sep 12 18:32:43 IST 2024</td>
+<td>Started on:</td><td>Sun Sep 15 19:55:06 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>23 seconds (23082 ms)</td>
+<tr><td>Total time:</td><td>21 seconds (21978 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -78,39 +78,57 @@ function toggleAllBoxes() {
 <tr>
 <td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Login Feature"</td>
 <td><div><pre>java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
-	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:64)
-	at ?.User should login successfully(classpath:parallel/login1.feature:37)
-... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2072586398", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2072586398'><pre>java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
+	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:35)
+	at ?.User should login successfully(classpath:parallel/login2.feature:37)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2021292619", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2021292619'><pre>java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:64)
-	at ?.User should login successfully(classpath:parallel/login1.feature:37)
+	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:35)
+	at ?.User should login successfully(classpath:parallel/login2.feature:37)
 </pre></div></td>
-<td>10</td>
-<td>parallel.ParallelRun@39529185</td></tr>
+<td>15</td>
+<td>parallel.ParallelRun@333291e3</td></tr>
 <tr>
 <td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Login Feature"</td>
 <td><div><pre>java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
-	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:64)
-	at ?.User should login successfully(classpath:parallel/login2.feature:37)
-... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace764663723", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace764663723'><pre>java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
+	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:35)
+	at ?.User should login successfully(classpath:parallel/login1.feature:29)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1004126216", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1004126216'><pre>java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:64)
-	at ?.User should login successfully(classpath:parallel/login2.feature:37)
+	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:35)
+	at ?.User should login successfully(classpath:parallel/login1.feature:29)
 </pre></div></td>
 <td>16</td>
-<td>parallel.ParallelRun@39529185</td></tr>
+<td>parallel.ParallelRun@333291e3</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Login Feature"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
+	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:35)
+	at ?.User should login successfully(classpath:parallel/login1.feature:37)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2078247899", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2078247899'><pre>java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:35)
+	at ?.User should login successfully(classpath:parallel/login1.feature:37)
+</pre></div></td>
+<td>15</td>
+<td>parallel.ParallelRun@333291e3</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -123,23 +141,18 @@ function toggleAllBoxes() {
 <tr>
 <td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Login Feature"</td>
 <td></td>
-<td>12</td>
-<td>parallel.ParallelRun@39529185</td></tr>
+<td>15</td>
+<td>parallel.ParallelRun@333291e3</td></tr>
 <tr>
 <td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Login Feature"</td>
 <td></td>
-<td>13</td>
-<td>parallel.ParallelRun@39529185</td></tr>
+<td>17</td>
+<td>parallel.ParallelRun@333291e3</td></tr>
 <tr>
 <td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Login Feature"</td>
 <td></td>
-<td>13</td>
-<td>parallel.ParallelRun@39529185</td></tr>
-<tr>
-<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to login with valid cred", "Login Feature"</td>
-<td></td>
-<td>20</td>
-<td>parallel.ParallelRun@39529185</td></tr>
+<td>15</td>
+<td>parallel.ParallelRun@333291e3</td></tr>
 </table><p>
 </body>
 </html>

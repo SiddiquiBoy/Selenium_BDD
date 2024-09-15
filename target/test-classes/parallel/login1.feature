@@ -24,7 +24,7 @@ Feature: Login Feature
   Scenario: User should be able to login with valid cred
     Given User launch url "https://practicetestautomation.com/practice-test-login/"
     When User enter username "student"
-    And User enter password "Password123"
+    And User enter password "Password1234"
     And User click on login button
     Then User should login successfully
 

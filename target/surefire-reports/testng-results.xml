@@ -1,91 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+<testng-results ignored="0" total="6" passed="3" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-12T18:32:43 IST" name="Surefire suite" finished-at="2024-09-12T18:33:06 IST" duration-ms="23082">
+  <suite started-at="2024-09-15T19:55:06 IST" name="Surefire suite" finished-at="2024-09-15T19:55:28 IST" duration-ms="21978">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@333291e3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-09-12T18:32:43 IST" name="Surefire test" finished-at="2024-09-12T18:33:06 IST" duration-ms="23082">
+    <test started-at="2024-09-15T19:55:06 IST" name="Surefire test" finished-at="2024-09-15T19:55:28 IST" duration-ms="21978">
       <class name="parallel.ParallelRun">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-12T18:32:43 IST" name="setUpClass" finished-at="2024-09-12T18:32:43 IST" duration-ms="467" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:parallel.ParallelRun@333291e3]" started-at="2024-09-15T19:55:06 IST" name="setUpClass" finished-at="2024-09-15T19:55:07 IST" duration-ms="993" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@185a6e9]]>
+                <![CDATA[org.testng.TestRunner@1ff4931d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-12T18:32:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-12T18:32:56 IST" duration-ms="12897" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should be able to login with valid cred"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Feature"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-12T18:32:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-12T18:32:57 IST" duration-ms="13829" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should be able to login with valid cred"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Feature"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-12T18:32:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-12T18:32:57 IST" duration-ms="13720" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should be able to login with valid cred"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Feature"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-12T18:32:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-12T18:33:04 IST" duration-ms="20534" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should be able to login with valid cred"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Feature"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-12T18:32:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-12T18:32:53 IST" duration-ms="10074" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@333291e3]" started-at="2024-09-15T19:55:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-15T19:55:22 IST" duration-ms="15319" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -110,40 +46,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
-at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:64)
-at ✽.User should login successfully(classpath:parallel/login1.feature:37)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-12T18:32:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-12T18:33:00 IST" duration-ms="16987" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should be able to login with valid cred"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Feature"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:64)
+at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:35)
 at ✽.User should login successfully(classpath:parallel/login2.feature:37)
 ]]>
             </full-stacktrace>
@@ -151,7 +54,121 @@ at ✽.User should login successfully(classpath:parallel/login2.feature:37)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun@39529185]" started-at="2024-09-12T18:33:04 IST" name="tearDownClass" finished-at="2024-09-12T18:33:06 IST" duration-ms="2039" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@333291e3]" started-at="2024-09-15T19:55:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-15T19:55:24 IST" duration-ms="16755" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to login with valid cred"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:35)
+at ✽.User should login successfully(classpath:parallel/login1.feature:29)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@333291e3]" started-at="2024-09-15T19:55:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-15T19:55:23 IST" duration-ms="15613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to login with valid cred"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@333291e3]" started-at="2024-09-15T19:55:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-15T19:55:25 IST" duration-ms="17622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to login with valid cred"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@333291e3]" started-at="2024-09-15T19:55:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-15T19:55:23 IST" duration-ms="15503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to login with valid cred"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@333291e3]" started-at="2024-09-15T19:55:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-15T19:55:22 IST" duration-ms="15331" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to login with valid cred"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://practicetestautomation.com/logged-in-successfully/] but found [https://practicetestautomation.com/practice-test-login/]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at parallel.StepDefinition.user_should_login_successfully(StepDefinition.java:35)
+at ✽.User should login successfully(classpath:parallel/login1.feature:37)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun@333291e3]" started-at="2024-09-15T19:55:25 IST" name="tearDownClass" finished-at="2024-09-15T19:55:28 IST" duration-ms="3236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
